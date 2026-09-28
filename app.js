@@ -1,10 +1,12 @@
 const $ = id => document.getElementById(id);
 let lessonData;
 let topicKey = 'travel';
-let level = 'A1';
+let level = 'A';
 let index = 0;
 let voices = [];
 let voiceChosenByUser = false;
+let voiceUnavailable = false;
+let voiceFallback = false;
 let recorder;
 let microphone;
 let recordingEpoch = 0;
@@ -67,22 +69,42 @@ function changeLesson() {
 
 function updateVoices() {
   if (!('speechSynthesis' in window)) {
+    voiceUnavailable = true;
+    voiceFallback = false;
+    $('voice-note').hidden = false;
+    $('voice-note').textContent = '這台裝置沒有提供語音朗讀，仍可閱讀句子並錄音。';
     $('listen').disabled = true;
     setStatus('這台裝置沒有提供語音朗讀，仍可閱讀句子並錄音。', true);
     return;
   }
   const selected = $('voice').value;
   const available = speechSynthesis.getVoices();
-  voices = available.filter(voice => /^en-US$/i.test(voice.lang));
-  if (!voices.length) voices = available.filter(voice => /^en\b/i.test(voice.lang));
-  $('voice').replaceChildren(new Option('裝置預設英文聲音', ''));
+  voices = available.filter(voice => /^en-US$/i.test(voice.lang) && /^(Samantha|Eddy)(\b|\s|\()/i.test(voice.name));
+  voices.sort((a,b) => Number(/^Samantha\b/i.test(b.name)) - Number(/^Samantha\b/i.test(a.name)) || a.name.localeCompare(b.name));
+  $('voice').replaceChildren();
   for (const voice of voices) $('voice').add(new Option(voice.name, voice.voiceURI));
+  if (!voices.length) {
+    voiceUnavailable = true;
+    voiceFallback = true;
+    $('voice').add(new Option('Samantha／Eddy 未提供', ''));
+    $('voice').disabled = true;
+    $('listen').disabled = false;
+    $('voice-note').hidden = false;
+    $('voice-note').textContent = '這台裝置沒有 Samantha 或 Eddy；示範會自動使用裝置預設英文聲音。';
+    setStatus('可聽示範：將使用裝置預設英文聲音。');
+    return;
+  }
+  voiceFallback = false;
+  $('voice-note').hidden = true;
+  $('voice').disabled = false;
+  $('listen').disabled = false;
+  if (voiceUnavailable) setStatus('準備開始。先聽示範，再開口練習。');
+  voiceUnavailable = false;
   if (voiceChosenByUser && voices.some(voice => voice.voiceURI === selected)) {
     $('voice').value = selected;
-  } else if (!voiceChosenByUser) {
-    const preferred = voices.find(voice => /^Samantha\b/i.test(voice.name))
-      || voices.find(voice => /^Eddy\b/i.test(voice.name));
-    $('voice').value = preferred?.voiceURI || '';
+  } else {
+    $('voice').value = voices[0].voiceURI;
+    voiceChosenByUser = false;
   }
 }
 
@@ -93,10 +115,12 @@ function speak() {
   const utterance = new SpeechSynthesisUtterance(sentence);
   utterance.lang = 'en-US';
   utterance.rate = 0.88;
-  utterance.voice = voices.find(voice => voice.voiceURI === $('voice').value) || null;
+  utterance.voice = voiceFallback ? null : voices.find(voice => voice.voiceURI === $('voice').value) || null;
   utterance.onstart = () => setStatus('正在示範朗讀。聽完後，按「開始跟讀錄音」。');
   utterance.onend = () => setStatus('示範播完了。現在換你開口說。');
-  utterance.onerror = () => setStatus('這台裝置沒有播出示範聲音，請改選另一個聲音再試。', true);
+  utterance.onerror = () => setStatus(voiceFallback
+    ? '裝置預設英文聲音沒有播出。請檢查裝置的語音設定後再試。'
+    : '這台裝置沒有播出示範聲音，請改選另一個聲音再試。', true);
   speechSynthesis.speak(utterance);
 }
 

@@ -24,8 +24,8 @@
     </header>
 
     <section id="version-panel" class="version-panel" aria-label="版本與更新" hidden>
-      <strong>iPhone／iPad 網頁版 0.1.0</strong>
-      <p>從分享連結開啟時，重新載入頁面即可取得已發布的網頁更新。TestFlight 原生版會另外提供。</p>
+      <strong>iPhone／iPad 網頁版 0.2.1</strong>
+      <p>連網重新開啟時，課程會自動載入已發布的新版；離線時使用手機暫存的版本。TestFlight 原生版會另外提供。</p>
       <p>在 iPhone 或 iPad，從畫面底部上滑回到主畫面即可離開 App。</p>
       <button id="reload-page" type="button">重新載入目前版本</button>
     </section>
@@ -38,8 +38,9 @@
 
     <section class="settings" aria-label="練習設定">
       <label>練習主題<select id="topic" aria-label="練習主題"></select></label>
-      <label>練習階段<select id="level" aria-label="練習階段"></select></label>
-      <label>示範聲音<select id="voice" aria-label="示範聲音"><option value="">裝置預設英文聲音</option></select></label>
+      <label>練習難度<select id="level" aria-label="練習難度"></select></label>
+      <label>示範聲音<select id="voice" aria-label="示範聲音" disabled><option value="">正在偵測 Samantha／Eddy</option></select></label>
+      <p id="voice-note" class="voice-note" role="status" hidden></p>
     </section>
 
     <section class="practice" aria-labelledby="sentence">
