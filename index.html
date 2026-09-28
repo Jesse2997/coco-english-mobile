@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff5df">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Coco English">
+  <meta name="description" content="跟 Coco 練習英文對話：聽示範、開口跟讀、錄音回放。">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/png" href="./icon-192.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Coco English｜英文對話練習</title>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main class="app-shell">
+    <header class="app-header">
+      <img class="app-icon" src="./icon-192.png" alt="Coco 小鳥">
+      <div><strong>Coco English</strong><span>英文對話練習</span></div>
+      <button id="version-toggle" class="version" type="button" aria-expanded="false" aria-controls="version-panel">版本與更新</button>
+    </header>
+
+    <section id="version-panel" class="version-panel" aria-label="版本與更新" hidden>
+      <strong>iPhone／iPad 網頁版 0.1.0</strong>
+      <p>從分享連結開啟時，重新載入頁面即可取得已發布的網頁更新。TestFlight 原生版會另外提供。</p>
+      <p>在 iPhone 或 iPad，從畫面底部上滑回到主畫面即可離開 App。</p>
+      <button id="reload-page" type="button">重新載入目前版本</button>
+    </section>
+
+    <section class="welcome" aria-labelledby="welcome-title">
+      <span class="eyebrow">LISTEN · SPEAK · REPLAY</span>
+      <h1 id="welcome-title">跟 Coco 一起，<br><em>開口說英文。</em></h1>
+      <p>聽一句、說一句，再聽聽自己的聲音。iPhone 和 iPad 都可以練。</p>
+    </section>
+
+    <section class="settings" aria-label="練習設定">
+      <label>練習主題<select id="topic" aria-label="練習主題"></select></label>
+      <label>練習階段<select id="level" aria-label="練習階段"></select></label>
+      <label>示範聲音<select id="voice" aria-label="示範聲音"><option value="">裝置預設英文聲音</option></select></label>
+    </section>
+
+    <section class="practice" aria-labelledby="sentence">
+      <div class="practice-head"><span id="speaker" class="speaker">COCO</span><span id="progress" class="progress">第 1 / 1 句</span></div>
+      <div class="progress-bar" aria-hidden="true"><span id="progress-fill"></span></div>
+      <p id="role" class="role">跟讀對方台詞</p>
+      <h2 id="sentence" lang="en-US">Loading…</h2>
+      <p id="translation" class="translation"></p>
+
+      <div class="audio-actions">
+        <button id="listen" class="primary" type="button">▶ 聽 Coco 示範</button>
+        <button id="record" type="button">● 開始跟讀錄音</button>
+        <button id="stop" type="button" hidden>■ 完成錄音</button>
+        <button id="replay" type="button" disabled>↺ 回放我的錄音</button>
+      </div>
+      <p id="status" class="status" role="status" aria-live="polite">準備開始。先聽示範，再開口練習。</p>
+      <div class="navigation"><button id="previous" type="button">← 上一句</button><button id="next" type="button">下一句 →</button></div>
+    </section>
+
+    <footer>
+      <p><strong>加入主畫面：</strong>在 iPhone 或 iPad 的 Safari 點「分享」，再選「加入主畫面」。</p>
+      <p>錄音只留在你目前開啟的裝置與頁面，不會上傳。離開頁面後錄音會清除。</p>
+      <p>第一次使用麥克風時，請選擇允許。這一版提供逐句練習；即時自由對話與發音評分尚未加入。</p>
+    </footer>
+  </main>
+</body>
+</html>

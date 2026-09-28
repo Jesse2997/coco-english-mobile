@@ -1,0 +1,2632 @@
+{
+  "levels": [
+    "A1",
+    "A2",
+    "A3",
+    "B1",
+    "B2",
+    "B3",
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "levelDescriptions": {
+    "A1": "短句與基本問答",
+    "A2": "簡單延伸與禮貌用語",
+    "A3": "加入時間和細節",
+    "B1": "說明需求與原因",
+    "B2": "確認條件與選項",
+    "B3": "處理變更與限制",
+    "C1": "清楚表達取捨",
+    "C2": "自然協商與細節",
+    "C3": "精細語氣與複雜情境"
+  },
+  "topics": {
+    "travel": {
+      "name": "旅行問路",
+      "levels": {
+        "A1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Good morning. Are you looking for the museum?",
+            "zh": "早安。你在找博物館嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes. I want to visit it today.",
+            "zh": "是的。我今天想去參觀。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I can help you find the way.",
+            "zh": "我可以幫你找路。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Thank you. I am new here.",
+            "zh": "謝謝你。我剛來這裡。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Do you have a map on your phone?",
+            "zh": "你手機裡有地圖嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes, but I cannot find the entrance.",
+            "zh": "有，但我找不到入口。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The museum has two entrances.",
+            "zh": "博物館有兩個入口。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Which one is closer to us?",
+            "zh": "哪個入口離我們比較近？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The east entrance is closer.",
+            "zh": "東側入口比較近。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Can we walk there?",
+            "zh": "我們可以走路過去嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes, but it takes twenty minutes.",
+            "zh": "可以，但要走二十分鐘。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That may be a little long.",
+            "zh": "那可能有點久。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We can take a bus instead.",
+            "zh": "我們也可以改搭公車。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That sounds good. Where is the stop?",
+            "zh": "聽起來不錯。站牌在哪裡？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "It is across this square.",
+            "zh": "就在這個廣場的另一側。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Let us go to the stop.",
+            "zh": "我們走去站牌吧。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "First, walk past the fountain.",
+            "zh": "先走過噴水池。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I see it near the trees.",
+            "zh": "我看到它在樹旁邊。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Then turn right at the bookstore.",
+            "zh": "接著在書店右轉。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Is that the small blue store?",
+            "zh": "是那家藍色的小店嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. The bus stop is beside it.",
+            "zh": "對。公車站就在它旁邊。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I can see a sign there.",
+            "zh": "我看到那邊有站牌。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Let us check the bus number.",
+            "zh": "我們來確認公車號碼。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "The sign says number twelve.",
+            "zh": "站牌上寫十二號。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "That is the right bus.",
+            "zh": "那就是我們要搭的車。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "How often does it come?",
+            "zh": "它多久來一班？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "It comes every ten minutes.",
+            "zh": "每十分鐘有一班。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "We have time to buy a ticket.",
+            "zh": "我們有時間買票。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "There is a ticket machine here.",
+            "zh": "這裡有一台售票機。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Can I pay with my card?",
+            "zh": "我可以刷卡嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. Choose one adult ticket.",
+            "zh": "可以。請選一張成人票。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "The screen asks for a destination.",
+            "zh": "螢幕要我選目的地。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Choose Museum East.",
+            "zh": "請選「博物館東側」。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I found it. Is this the right price?",
+            "zh": "找到了。這個價格對嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes, that is the bus fare.",
+            "zh": "對，那就是公車票價。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I have my ticket now.",
+            "zh": "我現在拿到票了。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Here comes the bus.",
+            "zh": "公車來了。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Does the front sign say Museum East?",
+            "zh": "車頭是不是寫「博物館東側」？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. Let us get on.",
+            "zh": "對。我們上車吧。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Do I show my ticket to the driver?",
+            "zh": "我要把票給司機看嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Just tap it on this reader.",
+            "zh": "只要在這個感應器上刷一下。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "The light is green. Did it work?",
+            "zh": "燈亮綠色了。有成功嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. We can sit near the window.",
+            "zh": "有。我們可以坐窗邊。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "How many stops do we have?",
+            "zh": "我們要坐幾站？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Usually, we get off after four stops.",
+            "zh": "通常坐四站後下車。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Please tell me when we are close.",
+            "zh": "快到時請告訴我。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Of course. I will watch the signs.",
+            "zh": "當然。我會注意站名。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "The bus is turning left now.",
+            "zh": "公車現在左轉了。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Is this still the right way?",
+            "zh": "這樣還是正確的路嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes. There is a small road change today.",
+            "zh": "對。今天路線有一點調整。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Why did the route change?",
+            "zh": "為什麼路線改了？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "There is work on the main street.",
+            "zh": "主要街道正在施工。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Will we be late?",
+            "zh": "我們會遲到嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "No. The change only adds a few minutes.",
+            "zh": "不會。只會多花幾分鐘。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "That is good. What stop is next?",
+            "zh": "那就好。下一站是哪一站？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "The next stop is Central Park.",
+            "zh": "下一站是中央公園。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Can we see the park from here?",
+            "zh": "從這裡看得到公園嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes. It is on your left.",
+            "zh": "看得到。就在你的左邊。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "It looks like a nice place.",
+            "zh": "看起來是個不錯的地方。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "We can visit after the museum.",
+            "zh": "參觀完博物館後可以來走走。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I would like that.",
+            "zh": "我很想去。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Now we are two stops away.",
+            "zh": "現在再兩站就到了。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Should I press the stop button?",
+            "zh": "我要按下車鈴嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Not yet. Press it after the next stop.",
+            "zh": "還不用。過下一站後再按。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Okay. I will wait.",
+            "zh": "好，我等一下。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "The next stop has passed.",
+            "zh": "剛剛那一站過了。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I will press the button now.",
+            "zh": "我現在按下車鈴。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Great. Our stop is coming.",
+            "zh": "很好。我們快到了。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I can see the museum sign.",
+            "zh": "我看到博物館的指標了。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Let us get off at this stop.",
+            "zh": "我們在這站下車。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Which way do we go now?",
+            "zh": "現在要往哪邊走？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Walk toward the large clock.",
+            "zh": "往那座大鐘的方向走。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Is the clock beside the garden?",
+            "zh": "大鐘在花園旁邊嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes. The path starts there.",
+            "zh": "對。步道從那裡開始。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I see two paths. Which one is ours?",
+            "zh": "我看到兩條路。我們要走哪條？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Take the path on the right.",
+            "zh": "走右邊那條。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "There is a bridge ahead.",
+            "zh": "前面有一座橋。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Cross it, then follow the green signs.",
+            "zh": "過橋後沿著綠色指標走。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The signs point to the east entrance.",
+            "zh": "指標指向東側入口。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That is the entrance we need.",
+            "zh": "那正是我們要去的入口。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Is the ticket desk inside?",
+            "zh": "售票處在裡面嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes, just behind the doors.",
+            "zh": "對，就在門後面。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "What time does the museum open?",
+            "zh": "博物館幾點開門？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "It opens at ten in the morning.",
+            "zh": "早上十點開門。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "It is almost ten now.",
+            "zh": "現在快十點了。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "We arrived at a good time.",
+            "zh": "我們到得正好。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Can I buy a tour ticket here?",
+            "zh": "我可以在這裡買導覽票嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes. Ask at the desk on the left.",
+            "zh": "可以。請問左側櫃檯。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I will ask about the next tour.",
+            "zh": "我去問下一場導覽。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I can wait near the entrance.",
+            "zh": "我可以在入口附近等你。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The next tour starts at eleven.",
+            "zh": "下一場導覽十一點開始。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That gives us time to look around.",
+            "zh": "那我們還有時間四處看看。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "There is a map of the museum here.",
+            "zh": "這裡有博物館地圖。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Can you show me the meeting point?",
+            "zh": "可以指給我看集合地點嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "It is in the main hall.",
+            "zh": "就在大廳。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Thank you. I know the way now.",
+            "zh": "謝謝你。我現在知道怎麼走了。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "You are welcome. Enjoy the museum!",
+            "zh": "不客氣。祝你參觀愉快！"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I will. Thanks for your help today.",
+            "zh": "一定會的。謝謝你今天的幫忙。"
+          }
+        ],
+        "A2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Excuse me, are you looking for the city museum?",
+            "zh": "不好意思，你在找市立博物館嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes, I am. Can I walk there from here?",
+            "zh": "對，請問從這裡可以走過去嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. Go straight for two blocks, then turn right.",
+            "zh": "可以。直走兩個街區，然後右轉。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Great. Is there a sign near the entrance?",
+            "zh": "太好了。入口附近有標示嗎？"
+          }
+        ],
+        "A3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The museum opens at ten. When would you like to arrive?",
+            "zh": "博物館十點開門。你想幾點到？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I would like to get there before noon. Which bus should I take?",
+            "zh": "我想在中午前到。應該搭哪班公車？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Take bus twelve and get off after three stops.",
+            "zh": "搭十二號公車，三站後下車。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Thanks. How often does that bus come?",
+            "zh": "謝謝。那班公車多久來一班？"
+          }
+        ],
+        "B1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The direct train is delayed, but there is another route through Central Station.",
+            "zh": "直達列車誤點了，但可以從中央車站轉乘其他路線。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I need to reach the museum by one because my tour starts then.",
+            "zh": "我得在一點前抵達博物館，因為導覽那時開始。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "In that case, take the green line and change at Central Station.",
+            "zh": "這樣的話，搭綠線並在中央車站轉車。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "How long will the whole trip take with the transfer?",
+            "zh": "加上轉乘，整趟大概需要多久？"
+          }
+        ],
+        "B2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "You can take the bus or walk along the river; both routes reach the gallery.",
+            "zh": "你可以搭公車或沿著河邊走，兩條路都能到美術館。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "If I walk, will I still arrive before the guided tour begins?",
+            "zh": "如果用走的，還趕得上導覽開始嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Probably, provided you leave now and use the pedestrian bridge.",
+            "zh": "應該可以，前提是你現在出發並走行人天橋。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I would rather walk. Could you point out the bridge on this map?",
+            "zh": "我比較想走路。可以在地圖上指出天橋的位置嗎？"
+          }
+        ],
+        "B3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Roadworks have closed the usual entrance, so the map on your phone is out of date.",
+            "zh": "道路施工讓原本的入口封閉了，因此你手機上的地圖資訊已過時。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I have limited time. Is there an accessible entrance that avoids the stairs?",
+            "zh": "我時間不多。有沒有不用走樓梯的無障礙入口？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes, but you will need to circle the block and enter from the east side.",
+            "zh": "有，但你需要繞過這個街區，從東側進入。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Could you describe the landmark beside it so I do not miss the turn?",
+            "zh": "可以描述入口旁的地標嗎？我怕錯過轉彎處。"
+          }
+        ],
+        "C1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The fastest route is crowded at this hour, whereas the riverside route is calmer but less direct.",
+            "zh": "這個時間最快的路線很擁擠；河岸路線比較清幽，但沒那麼直接。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I am happy to trade a few minutes for a quieter walk, provided the signs are easy to follow.",
+            "zh": "如果指標清楚，我願意多花幾分鐘，換一段比較安靜的步行路線。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "They are clear until the footbridge; after that, keep the old library on your left.",
+            "zh": "到行人橋前指標都很清楚；過橋後讓舊圖書館保持在你的左手邊。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Let me check I have it right: I cross the bridge and continue past the library?",
+            "zh": "我確認一下：過橋之後，繼續走過圖書館，對嗎？"
+          }
+        ],
+        "C2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The express bus looks quicker on paper, but traffic around the station can erase that advantage.",
+            "zh": "快速公車表面上較快，但車站周邊的車流可能讓這個優勢消失。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Given that uncertainty, I would rather take the tram, even if it means one extra transfer.",
+            "zh": "考量這項不確定性，即使需要多轉一次車，我也寧可搭電車。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "That is sensible. Stay on until Harbor Square, then follow signs for the eastbound platform.",
+            "zh": "這樣很合理。搭到港口廣場，再依指標走到東向月台。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Before I set off, could you clarify whether the same ticket covers both legs?",
+            "zh": "出發前，能否確認同一張票是否涵蓋兩段車程？"
+          }
+        ],
+        "C3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "A temporary closure has made the posted route misleading, and the alternative is poorly signposted after dusk.",
+            "zh": "臨時封路讓張貼的路線資訊容易誤導人，入夜後替代路線的指標也不清楚。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Rather than risk a wrong turn, could you outline a route with clear landmarks, even if it takes longer?",
+            "zh": "與其冒著走錯路的風險，能否說明一條地標明確的路線，即使比較遠也沒關係？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Follow the lit boulevard to the clock tower, cross at the signal, and keep the museum gardens on your right.",
+            "zh": "沿著有照明的大道走到鐘樓，在號誌處過馬路，讓博物館花園保持在右手邊。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "So I should ignore the old signs entirely and use the clock tower as my first checkpoint?",
+            "zh": "所以我應該完全忽略舊指標，把鐘樓當作第一個確認點，對嗎？"
+          }
+        ]
+      }
+    },
+    "cafe": {
+      "name": "咖啡店點餐",
+      "levels": {
+        "A1": [
+          {
+            "role": "跟讀問題",
+            "speaker": "COCO",
+            "text": "Hi! What can I get for you today?",
+            "zh": "嗨！今天想點什麼？"
+          },
+          {
+            "role": "跟讀回答",
+            "speaker": "YOU",
+            "text": "Could I have a small latte, please?",
+            "zh": "可以給我一杯小杯拿鐵嗎？"
+          },
+          {
+            "role": "跟讀問題",
+            "speaker": "COCO",
+            "text": "Sure. Would you like it hot or iced?",
+            "zh": "好的。你想喝熱的還是冰的？"
+          },
+          {
+            "role": "跟讀回答",
+            "speaker": "YOU",
+            "text": "Iced, please. Do you have oat milk?",
+            "zh": "冰的，謝謝。你們有燕麥奶嗎？"
+          },
+          {
+            "role": "跟讀問題",
+            "speaker": "COCO",
+            "text": "Yes, we do. Anything else?",
+            "zh": "有的。還需要別的嗎？"
+          },
+          {
+            "role": "跟讀回答",
+            "speaker": "YOU",
+            "text": "No, that's all. Thank you!",
+            "zh": "不用了，就這些。謝謝！"
+          }
+        ],
+        "A2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Good morning! Would you like something to drink?",
+            "zh": "早安！你想喝點什麼嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "A medium latte, please. Can you make it iced?",
+            "zh": "一杯中杯拿鐵，謝謝。可以做成冰的嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Of course. Would you like regular or oat milk?",
+            "zh": "當然可以。你要一般牛奶還是燕麥奶？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Oat milk, please. I will drink it here.",
+            "zh": "燕麥奶，謝謝。我會在這裡喝。"
+          }
+        ],
+        "A3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Our breakfast set comes with coffee and a sandwich.",
+            "zh": "我們的早餐套餐附咖啡和三明治。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Can I choose a decaf coffee with the set?",
+            "zh": "套餐的咖啡可以選低咖啡因的嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. It will take about five minutes to prepare.",
+            "zh": "可以。準備大約需要五分鐘。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That works. Please make the sandwich without cheese.",
+            "zh": "可以。三明治請不要加起司。"
+          }
+        ],
+        "B1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We have two lunch specials today. One is vegetarian.",
+            "zh": "今天有兩種午餐特餐，其中一種是素食。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I would prefer the vegetarian one because I do not eat meat.",
+            "zh": "我比較想選素食的，因為我不吃肉。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "It comes with soup, but you can swap that for a salad.",
+            "zh": "套餐附湯，不過你可以換成沙拉。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Could I have the salad and a cup of tea instead?",
+            "zh": "我可以換沙拉，再點一杯茶嗎？"
+          }
+        ],
+        "B2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The single-origin coffee has a fruity taste, while our house blend is milder.",
+            "zh": "單一產區咖啡帶有果香，店內配方則比較溫和。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I usually prefer less acidity. Would the house blend suit me better?",
+            "zh": "我通常喜歡酸度低一點的。店內配方會比較適合嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I think so. We can also prepare it with milk if you prefer.",
+            "zh": "我想是的。如果你喜歡，也可以加牛奶。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Please make it with milk, but keep the drink unsweetened.",
+            "zh": "請加牛奶，但不要加糖。"
+          }
+        ],
+        "B3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We have run out of oat milk, although almond milk is still available.",
+            "zh": "燕麥奶已經用完了，不過杏仁奶還有。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I have a nut allergy, so almond milk will not work for me.",
+            "zh": "我對堅果過敏，所以不能用杏仁奶。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Thanks for telling me. We can use dairy milk or make the coffee black.",
+            "zh": "謝謝你告訴我。我們可以用一般牛奶，或做成黑咖啡。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Please make it black, and could you check that the cup is clean?",
+            "zh": "請做成黑咖啡，也麻煩確認杯子是乾淨的。"
+          }
+        ],
+        "C1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Our seasonal drink is quite sweet by default, but we can adjust the syrup.",
+            "zh": "本季飲品預設偏甜，不過糖漿用量可以調整。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I would like to taste the coffee itself, so could you use just a little syrup?",
+            "zh": "我想喝得出咖啡本身的味道，所以可以只加一點糖漿嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Certainly. Half the usual amount would keep the flavor balanced.",
+            "zh": "當然可以。用平常一半的量，風味應該會比較平衡。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That sounds right. Please make it to go, and label the cup as half sweet.",
+            "zh": "聽起來剛好。請做成外帶，並在杯上標註半糖。"
+          }
+        ],
+        "C2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We can prepare your order now, although the kitchen is running about fifteen minutes behind.",
+            "zh": "我們現在可以接單，但廚房的出餐時間大約延後十五分鐘。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I have a meeting shortly. Could we split the order so the coffee comes first?",
+            "zh": "我很快就有會議。能否分開出餐，先給我咖啡？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Absolutely. I can bring the coffee now and pack the food when it is ready.",
+            "zh": "當然。我可以現在先送咖啡，餐點做好後再打包。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That would be ideal; please let me know if the delay becomes any longer.",
+            "zh": "這樣最好；如果等候時間又延長，請告訴我。"
+          }
+        ],
+        "C3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The menu describes this blend as mild, though its finish can taste sharper when served without milk.",
+            "zh": "菜單將這款配方描述為溫和，但不加奶時，尾韻可能比較鮮明。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I am after a balanced drink rather than a sweet one; how would you adjust the preparation?",
+            "zh": "我想喝的是平衡的風味，而不是甜味；你會怎麼調整做法？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I would pull a shorter shot, add a little steamed milk, and leave out the flavored syrup.",
+            "zh": "我會縮短萃取、加少量蒸奶，並省略風味糖漿。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That sounds thoughtful. Please go ahead, and tell me if the beans change later today.",
+            "zh": "聽起來很周到。就照這樣做；如果今天稍晚換了豆子，也請告訴我。"
+          }
+        ]
+      }
+    },
+    "hotel": {
+      "name": "旅館入住",
+      "levels": {
+        "A1": [
+          {
+            "role": "跟讀問題",
+            "speaker": "COCO",
+            "text": "Welcome! Do you have a reservation?",
+            "zh": "歡迎！你有訂房嗎？"
+          },
+          {
+            "role": "跟讀回答",
+            "speaker": "YOU",
+            "text": "Yes, I booked a room under Alex.",
+            "zh": "有，我用 Alex 的名字訂了房。"
+          },
+          {
+            "role": "跟讀問題",
+            "speaker": "COCO",
+            "text": "May I see your ID, please?",
+            "zh": "可以給我看一下你的證件嗎？"
+          },
+          {
+            "role": "跟讀回答",
+            "speaker": "YOU",
+            "text": "Of course. Here it is.",
+            "zh": "當然可以，這裡。"
+          },
+          {
+            "role": "跟讀問題",
+            "speaker": "COCO",
+            "text": "Your room is on the fifth floor. Do you need help with your bags?",
+            "zh": "你的房間在五樓。需要幫忙拿行李嗎？"
+          },
+          {
+            "role": "跟讀回答",
+            "speaker": "YOU",
+            "text": "No, thank you. What time is breakfast?",
+            "zh": "不用，謝謝。早餐是幾點？"
+          },
+          {
+            "role": "跟讀回答",
+            "speaker": "COCO",
+            "text": "Breakfast starts at seven in the morning.",
+            "zh": "早餐早上七點開始。"
+          }
+        ],
+        "A2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Welcome to our hotel. Are you checking in today?",
+            "zh": "歡迎來到我們的旅館。你今天要辦理入住嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes. I have a room for two nights.",
+            "zh": "是的，我訂了兩晚的房間。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "May I have your name and an ID, please?",
+            "zh": "請問可以提供你的姓名與證件嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "My name is Alex. Here is my passport.",
+            "zh": "我叫 Alex。這是我的護照。"
+          }
+        ],
+        "A3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Your room is ready, and check-out is at eleven.",
+            "zh": "你的房間準備好了，退房時間是十一點。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Thank you. Is breakfast included in my booking?",
+            "zh": "謝謝。我的訂房有包含早餐嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. Breakfast is served downstairs from seven to ten.",
+            "zh": "有。早餐在樓下供應，時間是七點到十點。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Perfect. Could you tell me where the elevator is?",
+            "zh": "太好了。可以告訴我電梯在哪裡嗎？"
+          }
+        ],
+        "B1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I found your booking, but the room is not ready yet.",
+            "zh": "我找到你的訂房了，不過房間還沒準備好。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I understand. I arrived early because my flight landed this morning.",
+            "zh": "我了解。我提早到了，因為班機今天早上就降落。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "You may leave your luggage here while you wait.",
+            "zh": "等候時，你可以把行李寄放在這裡。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Thanks. Could you let me know when the room is available?",
+            "zh": "謝謝。房間準備好時可以通知我嗎？"
+          }
+        ],
+        "B2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Your reservation includes a standard room, though a quieter room is available.",
+            "zh": "你訂的是標準房，不過目前有比較安靜的房間。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That sounds useful. Would changing rooms affect the price or check-out time?",
+            "zh": "聽起來不錯。換房會影響價格或退房時間嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The price is the same, but the quieter room has one smaller window.",
+            "zh": "價格一樣，但比較安靜的房間窗戶較小。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I value quiet more than the view, so I would like that room.",
+            "zh": "比起景觀，我更重視安靜，所以想選那間。"
+          }
+        ],
+        "B3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I am sorry, but the air conditioning in your assigned room needs repair.",
+            "zh": "抱歉，你原本分配的房間空調需要維修。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I need a quiet room for a video meeting tonight. What alternatives do you have?",
+            "zh": "我今晚要開視訊會議，需要安靜的房間。還有哪些選擇？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We can move you to a room on another floor at no extra charge.",
+            "zh": "我們可以免費幫你換到其他樓層的房間。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That would help. Please confirm the Wi-Fi is stable before I move.",
+            "zh": "那會有幫助。換房前，請先確認 Wi-Fi 穩定。"
+          }
+        ],
+        "C1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The room you booked faces the street, but I can offer a courtyard room instead.",
+            "zh": "你預訂的房間面向街道，但我可以改提供面向中庭的房間。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I have an early call tomorrow, so a quieter room would be worth a slightly smaller space.",
+            "zh": "我明天一早有電話會議，因此房間小一點也值得換取安靜。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The courtyard room is available now and carries no additional fee.",
+            "zh": "中庭房現在就能入住，而且不需額外費用。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Please switch my booking, and could you confirm the new room number in writing?",
+            "zh": "請幫我更改訂房，也請用文字確認新的房號。"
+          }
+        ],
+        "C2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The city-wide conference has left us with fewer rooms than expected tonight.",
+            "zh": "今晚全市舉辦會議，讓我們可提供的房間比預期少。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "My confirmed reservation includes a desk and reliable internet, both of which I need for work.",
+            "zh": "我已確認的訂房包含書桌和穩定網路，而這兩項都是工作必需。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I can arrange a comparable room at our sister property and cover the transfer.",
+            "zh": "我可以安排你入住我們的姊妹旅館，提供相近房型，並支付交通費。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Please send me the room details first so I can confirm it meets those requirements.",
+            "zh": "請先把房間資訊傳給我，好讓我確認是否符合這些需求。"
+          }
+        ],
+        "C3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "There is a discrepancy between your confirmation and our system: the breakfast benefit is missing from the room record.",
+            "zh": "你的確認信與我們的系統資料有出入：房間紀錄裡少了早餐權益。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I have the confirmation here. Could we resolve that before check-in so it does not become an issue tomorrow morning?",
+            "zh": "我有確認信。能否在入住前處理好，避免明早又發生問題？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Of course. I will add a note to the booking, issue breakfast vouchers, and email the corrected details.",
+            "zh": "當然。我會在訂房加註、發早餐券，並寄送更正後的資訊。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Thank you. Once the updated confirmation arrives, I will check that the dates and benefits are both correct.",
+            "zh": "謝謝。收到更新的確認信後，我會核對日期與權益是否都正確。"
+          }
+        ]
+      }
+    },
+    "restaurant": {
+      "name": "餐廳點餐",
+      "levels": {
+        "A1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Welcome. Do you need a table?",
+            "zh": "歡迎。你需要座位嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes, a table for two, please.",
+            "zh": "需要，兩位，謝謝。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Please follow me.",
+            "zh": "請跟我來。"
+          }
+        ],
+        "A2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Here is the menu. Would you like some water?",
+            "zh": "這是菜單。你想喝點水嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes, please. What is popular here?",
+            "zh": "好，謝謝。這裡什麼餐點受歡迎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The chicken rice is very popular.",
+            "zh": "雞肉飯很受歡迎。"
+          }
+        ],
+        "A3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Our lunch special comes with soup. It is ready in ten minutes.",
+            "zh": "午餐特餐有附湯，約十分鐘後會做好。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Does the soup have milk? I cannot have dairy.",
+            "zh": "湯裡有牛奶嗎？我不能吃乳製品。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "It does. I can offer a salad instead.",
+            "zh": "有。我可以幫你換成沙拉。"
+          }
+        ],
+        "B1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Would you like a recommendation from our vegetarian dishes?",
+            "zh": "要我推薦素食餐點嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes. I prefer something filling because I skipped breakfast.",
+            "zh": "好。我沒吃早餐，想要比較有飽足感的餐點。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The mushroom pasta is hearty and comes with a side salad.",
+            "zh": "蘑菇義大利麵很有飽足感，還附一份沙拉。"
+          }
+        ],
+        "B2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The set meal includes fries, but you may replace them with vegetables.",
+            "zh": "套餐附薯條，但可以換成蔬菜。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Could I make that substitution and split the bill with my friend?",
+            "zh": "我可以換成蔬菜，並和朋友分開結帳嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Certainly. I will note the change and prepare separate bills.",
+            "zh": "當然。我會註明更換內容，並分開開立帳單。"
+          }
+        ],
+        "B3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I apologize; your main course is taking longer than we expected.",
+            "zh": "抱歉，你的主餐比預期更久才會做好。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "We have a show to catch. Could you estimate the wait or suggest a quicker dish?",
+            "zh": "我們等一下要看表演。能否估計還要等多久，或推薦較快的餐點？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "It will be another fifteen minutes; the soup and sandwich can be ready sooner.",
+            "zh": "還要十五分鐘；湯和三明治可以更快上桌。"
+          }
+        ],
+        "C1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The tasting menu offers more variety, while the main course gives you a larger portion.",
+            "zh": "品嚐套餐變化較多，單點主餐的份量則比較大。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I value variety, but I have limited time. How long does the tasting menu usually take?",
+            "zh": "我喜歡多樣化，但時間有限。品嚐套餐通常需要多久？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Allow about an hour; I can serve the courses closer together if that helps.",
+            "zh": "大約一小時；如果有幫助，我可以縮短每道菜之間的間隔。"
+          }
+        ],
+        "C2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I understand the dish was not prepared as you requested. How can we put that right?",
+            "zh": "我了解這道菜沒有依照你的要求製作。我們該如何補救？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I appreciate your help. A corrected dish would be ideal, provided it can arrive before we leave.",
+            "zh": "謝謝你願意協助。如果能在我們離開前送來，重新做一份最理想。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I will confirm the timing with the kitchen and return with a clear answer.",
+            "zh": "我會向廚房確認時間，再給你明確的答覆。"
+          }
+        ],
+        "C3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The chef can adapt the dish, but the sauce is prepared in a shared kitchen area.",
+            "zh": "主廚可以調整這道菜，但醬汁是在共用的廚房區域製作。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Because of a serious food allergy, I would rather choose an option you can prepare without that sauce or shared utensils.",
+            "zh": "我有嚴重的食物過敏，寧可選一道能避開該醬汁與共用器具製作的餐點。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Thank you for explaining. I will check the preparation process directly with the chef before taking your order.",
+            "zh": "謝謝你說明。我會先直接向主廚確認製作流程，再替你點餐。"
+          }
+        ]
+      }
+    },
+    "shopping": {
+      "name": "購物與退換貨",
+      "levels": {
+        "A1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Hello. What size do you need?",
+            "zh": "你好。你需要什麼尺寸？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I need a medium, please.",
+            "zh": "我需要中號，謝謝。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Here is a medium.",
+            "zh": "這是中號。"
+          }
+        ],
+        "A2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "This shirt comes in blue and green.",
+            "zh": "這件上衣有藍色和綠色。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "May I see the blue one?",
+            "zh": "可以讓我看看藍色的嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Of course. The fitting room is over there.",
+            "zh": "當然可以。試衣間在那邊。"
+          }
+        ],
+        "A3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "How does the jacket fit around your shoulders?",
+            "zh": "這件外套的肩膀穿起來如何？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "It feels a little tight. Do you have a larger size?",
+            "zh": "有點緊。你們有大一號的嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes, I will bring it to the fitting room.",
+            "zh": "有，我會拿到試衣間給你。"
+          }
+        ],
+        "B1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "You can exchange unworn items within fourteen days if you keep the receipt.",
+            "zh": "未穿過的商品，保留收據可在十四天內換貨。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I am buying this as a gift. Can the recipient exchange the size?",
+            "zh": "這是我要送人的禮物。收禮人可以換尺寸嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. I can include a gift receipt without the price.",
+            "zh": "可以。我可以附上不顯示價格的禮物收據。"
+          }
+        ],
+        "B2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The sale price applies only to the colors displayed on this rack.",
+            "zh": "特價只適用於這個衣架上展示的顏色。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "If the navy version is full price, could you check whether another branch has the sale color in my size?",
+            "zh": "如果深藍色是原價，可以幫我查別家分店有沒有我的尺寸和特價色嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Certainly. I can search nearby stores and reserve one if it is available.",
+            "zh": "當然。我可以查附近分店；有貨的話也能幫你保留。"
+          }
+        ],
+        "B3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I see the zipper is faulty, even though you bought the jacket yesterday.",
+            "zh": "我看到拉鍊有瑕疵，雖然你昨天才買這件外套。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Could I exchange it for the same style rather than request a refund?",
+            "zh": "我可以換同款，不申請退款嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. I will check our stock and inspect the replacement with you.",
+            "zh": "可以。我會查庫存，並和你一起檢查換給你的商品。"
+          }
+        ],
+        "C1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "This coat is lighter, whereas the other one is more durable in heavy rain.",
+            "zh": "這件大衣較輕；另一件在大雨中更耐用。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I travel often, so I would accept a little extra weight if the fabric holds up better.",
+            "zh": "我常旅行，所以如果布料更耐用，重一點也可以接受。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "In that case, the weather-resistant model is probably the better investment.",
+            "zh": "這樣的話，防風雨款可能是比較好的選擇。"
+          }
+        ],
+        "C2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We can order your size online, but delivery will be after your trip.",
+            "zh": "我們可以在線上訂你的尺寸，但會在你旅行結束後才送達。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Could you compare in-store pickup at another branch with home delivery, including any fees?",
+            "zh": "可以比較到其他分店取貨和宅配的時間及費用嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I will check both options and let you decide once the dates are confirmed.",
+            "zh": "我會查兩種方式，日期確認後再讓你決定。"
+          }
+        ],
+        "C3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The label mentions recycled fibers, but it does not specify how the garment was manufactured.",
+            "zh": "標籤提到再生纖維，但沒有說明這件衣服的製造方式。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I like the design, yet I would prefer to review the sourcing details and return terms before committing.",
+            "zh": "我喜歡設計，但在購買前想先了解原料來源與退貨條件。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "That is fair. I can show you the product information and explain exactly which claims we can verify.",
+            "zh": "這很合理。我可以提供商品資訊，並說明哪些說法有資料可查證。"
+          }
+        ]
+      }
+    },
+    "friends": {
+      "name": "認識朋友／日常寒暄",
+      "levels": {
+        "A1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Hi! I am Coco. What is your name?",
+            "zh": "嗨！我是 Coco。你叫什麼名字？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I am Alex. Nice to meet you.",
+            "zh": "我是 Alex。很高興認識你。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Nice to meet you, too!",
+            "zh": "我也很高興認識你！"
+          }
+        ],
+        "A2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Do you live near this park?",
+            "zh": "你住在這座公園附近嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes, I live a few streets away. How about you?",
+            "zh": "對，我住在幾條街外。你呢？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I work nearby, so I come here after lunch.",
+            "zh": "我在附近工作，所以午餐後常來。"
+          }
+        ],
+        "A3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "What do you usually do on weekends?",
+            "zh": "你週末通常做什麼？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I like to visit bookstores and try new cafés.",
+            "zh": "我喜歡逛書店，也會試試新的咖啡店。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "That sounds fun. There is a great bookstore near here.",
+            "zh": "聽起來很有趣。這附近有一家很棒的書店。"
+          }
+        ],
+        "B1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I noticed you were reading about photography. Is that a hobby of yours?",
+            "zh": "我看到你在讀攝影相關的書。攝影是你的興趣嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes. I started last year because I wanted to capture my travels.",
+            "zh": "是的。我去年開始學，因為想記錄旅行。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I enjoy it too. What kind of places do you like to photograph?",
+            "zh": "我也喜歡。你喜歡拍什麼樣的地方？"
+          }
+        ],
+        "B2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "A few of us are visiting the weekend market. Would you like to join?",
+            "zh": "我們幾個人週末要去逛市集。你想一起來嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I would like to, but I am busy in the morning. Could I meet you there later?",
+            "zh": "我想去，但早上有事。我可以晚一點在那裡和你們會合嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Of course. I will send you the location and our rough plan.",
+            "zh": "當然。我會把地點和大致行程傳給你。"
+          }
+        ],
+        "B3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I am still learning the local customs, so I sometimes worry about saying the wrong thing.",
+            "zh": "我還在學習這裡的習慣，有時會擔心說錯話。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I understand. If something sounds unusual, please tell me and I will be happy to learn.",
+            "zh": "我懂。如果我說了什麼不太合適的話，請告訴我，我很願意學。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "That is kind of you. A relaxed conversation helps a lot.",
+            "zh": "你真貼心。輕鬆聊聊就很有幫助。"
+          }
+        ],
+        "C1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "You mentioned changing careers. What has surprised you most about the new field?",
+            "zh": "你提過轉換跑道。新領域最讓你意外的是什麼？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "The pace is faster than I expected, but I have enjoyed learning from people with different backgrounds.",
+            "zh": "節奏比我預期快，但我很享受向不同背景的人學習。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "That mix of perspectives can make the work much more interesting.",
+            "zh": "不同觀點的交流確實能讓工作更有趣。"
+          }
+        ],
+        "C2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We are planning a small gathering on Friday, though I know it is a busy week for you.",
+            "zh": "我們打算週五小聚一下，但我知道你這週很忙。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Thanks for thinking of me. I cannot promise yet; would it be all right if I let you know tomorrow?",
+            "zh": "謝謝你想到我。我還無法確定；明天再回覆你可以嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Absolutely. There is no pressure, and you are welcome whenever it works.",
+            "zh": "當然，沒有壓力；時間合適的話，隨時歡迎你來。"
+          }
+        ],
+        "C3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Our conversation about travel made me realize we value different kinds of experiences.",
+            "zh": "我們聊旅行時，我發現我們重視的體驗類型不太一樣。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That is true. I am drawn to unplanned moments, while you seem to enjoy understanding a place in depth.",
+            "zh": "確實如此。我喜歡沒有安排的驚喜，而你似乎喜歡深入了解一個地方。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Exactly. Perhaps the best trip would leave room for both curiosity and a little structure.",
+            "zh": "正是如此。也許最好的旅行，是同時保留探索空間和一點規劃。"
+          }
+        ]
+      }
+    },
+    "clinic": {
+      "name": "看診預約",
+      "levels": {
+        "A1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Hello. Do you have an appointment?",
+            "zh": "你好。你有預約嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes, at three o’clock.",
+            "zh": "有，三點。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Please check in at the desk.",
+            "zh": "請在櫃檯報到。"
+          }
+        ],
+        "A2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The doctor has an opening on Tuesday morning.",
+            "zh": "醫師週二上午有空檔。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Could I come in the afternoon instead?",
+            "zh": "我可以改成下午來嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes, there is a time at two thirty.",
+            "zh": "可以，兩點半有空檔。"
+          }
+        ],
+        "A3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "What would you like to discuss at the appointment?",
+            "zh": "這次預約想和醫師討論什麼？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I have had a headache since yesterday.",
+            "zh": "我從昨天開始頭痛。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I will note that for the clinician.",
+            "zh": "我會幫你記錄，提供給醫護人員。"
+          }
+        ],
+        "B1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We can book a routine appointment for Thursday. Does that work?",
+            "zh": "我們可以預約週四的一般門診。這時間可以嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes. I would like to discuss a cough that has lasted about a week.",
+            "zh": "可以。我想談談持續大約一週的咳嗽。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I will add that to the appointment note.",
+            "zh": "我會把這點加在預約備註裡。"
+          }
+        ],
+        "B2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Would you prefer an in-person visit or a video appointment?",
+            "zh": "你比較想現場看診，還是視訊看診？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I would prefer to come in. Could you confirm the address and check-in time?",
+            "zh": "我比較想現場看診。可以確認地址和報到時間嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Certainly. Please arrive ten minutes early at our main clinic.",
+            "zh": "當然。請提早十分鐘到我們的主診所。"
+          }
+        ],
+        "B3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Your appointment needs to move because the clinician is unavailable that day.",
+            "zh": "醫護人員當天無法看診，因此你的預約需要改期。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Could you offer another time this week and keep my original appointment notes?",
+            "zh": "這週還有其他時段嗎？原本的預約備註能保留嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. I will transfer the notes and send you the new confirmation.",
+            "zh": "可以。我會轉移備註，並寄給你新的確認資訊。"
+          }
+        ],
+        "C1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Before your first visit, we need a short history form and a list of current medications.",
+            "zh": "第一次看診前，我們需要簡短的病史表與目前用藥清單。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I can bring both. Could you clarify whether I should also bring previous test reports?",
+            "zh": "兩項我都能帶。請問還需要帶以前的檢查報告嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "If you have them, please bring copies so the clinician can review the context.",
+            "zh": "如果有，請帶副本，方便醫護人員了解先前情況。"
+          }
+        ],
+        "C2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We can arrange language assistance for the consultation if you would find that helpful.",
+            "zh": "如果有需要，我們可以安排看診時的語言協助。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That would help me explain the timeline accurately. Is the assistance available for the whole visit?",
+            "zh": "那有助於我準確說明症狀的時間經過。協助會涵蓋整段看診嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I will check availability and confirm the arrangements before your appointment.",
+            "zh": "我會確認人員是否可用，並在看診前通知你安排結果。"
+          }
+        ],
+        "C3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We can send the appointment summary electronically, but the contact preference on file may be outdated.",
+            "zh": "我們可以用電子方式寄送看診摘要，但系統記錄的聯絡偏好可能已過期。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Before anything is sent, I would like to confirm the recipient address and how follow-up questions should be handled.",
+            "zh": "寄出任何資料前，我想先確認收件地址，以及後續問題該如何聯繫。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Certainly. We will verify those details with you and explain the available follow-up channels.",
+            "zh": "當然。我們會和你核對資料，並說明可用的後續聯絡管道。"
+          }
+        ]
+      }
+    },
+    "coworker": {
+      "name": "同事溝通",
+      "levels": {
+        "A1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Hi, Alex. Can you help me with this file?",
+            "zh": "嗨，Alex。你可以幫我看這份檔案嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes. Please send it to me.",
+            "zh": "可以，請傳給我。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Thanks. I will send it now.",
+            "zh": "謝謝。我現在傳。"
+          }
+        ],
+        "A2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Did you finish the first part of the report?",
+            "zh": "報告的第一部分你完成了嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes. I will share it this afternoon.",
+            "zh": "完成了。我今天下午會分享。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Great. I can review it tomorrow.",
+            "zh": "太好了。我明天可以看。"
+          }
+        ],
+        "A3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We need the updated chart before Friday.",
+            "zh": "我們需要在週五前拿到更新的圖表。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I can finish it by Thursday if I get the data today.",
+            "zh": "如果今天拿到資料，我週四前可以完成。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I will send the data after lunch.",
+            "zh": "我午餐後會把資料傳給你。"
+          }
+        ],
+        "B1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "How is the customer summary coming along?",
+            "zh": "客戶摘要進度如何？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "The main points are ready, but I am waiting for the latest sales figures.",
+            "zh": "主要重點已整理好，但我還在等最新的銷售數字。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I can ask the sales team when those figures will be available.",
+            "zh": "我可以向業務團隊確認數字何時會出來。"
+          }
+        ],
+        "B2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Two requests came in at once. Which should we handle first?",
+            "zh": "有兩項需求同時進來。我們應該先處理哪一項？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "The client update is due sooner, so I suggest we finish that before revising the slides.",
+            "zh": "客戶更新比較快到期，所以我建議先完成它，再修改簡報。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Agreed. I will let the team know about the revised order.",
+            "zh": "同意。我會告訴團隊新的處理順序。"
+          }
+        ],
+        "B3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I will be away tomorrow. Could you take over the supplier follow-up?",
+            "zh": "我明天不在。你可以接手供應商的追蹤嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I can, provided you send me the latest email thread and the open questions.",
+            "zh": "可以，只要你把最新的郵件往來與待確認問題傳給我。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I will write a short handover so nothing gets missed.",
+            "zh": "我會寫一份簡短交接，避免漏掉事情。"
+          }
+        ],
+        "C1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The request now includes a new analysis, although our original deadline has not moved.",
+            "zh": "需求現在又增加一項分析，但原本的期限沒有延後。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "We should clarify who owns the new work before promising the same delivery date.",
+            "zh": "承諾維持原交期前，我們應該先釐清新增工作由誰負責。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I agree. Let us bring the scope change to the project lead.",
+            "zh": "我同意。我們一起把範圍變更提出來和專案負責人討論。"
+          }
+        ],
+        "C2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "If we spend another day polishing the visuals, the review team will have less time to check the numbers.",
+            "zh": "如果再花一天修飾圖表，審查團隊核對數字的時間就會縮短。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I would prioritize accuracy, then refine the visuals once the figures have been signed off.",
+            "zh": "我會先重視數字正確性；確認後再修飾圖表。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "That seems sensible. I will adjust the schedule and explain the sequence.",
+            "zh": "這樣很合理。我會調整時程並說明工作順序。"
+          }
+        ],
+        "C3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The data suggests progress, but the sample is too small for a confident conclusion.",
+            "zh": "資料顯示有進展，但樣本太小，還不足以做出有把握的結論。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Let us present the trend as preliminary and specify what additional evidence we need before changing course.",
+            "zh": "我們把趨勢列為初步觀察，並說明改變方向前還需要哪些證據。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Good. That communicates momentum without overstating what the numbers prove.",
+            "zh": "好。這樣能呈現進度，也不會誇大數字能證明的事。"
+          }
+        ]
+      }
+    },
+    "meeting": {
+      "name": "會議討論",
+      "levels": {
+        "A1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Let us start the meeting. Is everyone ready?",
+            "zh": "我們開始開會吧。大家準備好了嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Yes, I am ready.",
+            "zh": "我準備好了。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Great. Here is today’s agenda.",
+            "zh": "很好。這是今天的議程。"
+          }
+        ],
+        "A2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Do you have an idea for the next step?",
+            "zh": "你對下一步有想法嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I think we should talk to the customer first.",
+            "zh": "我認為我們應該先和客戶談。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Good idea. I will add that to our plan.",
+            "zh": "好主意。我會把它加進計畫。"
+          }
+        ],
+        "A3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We need to make a decision by Friday.",
+            "zh": "我們必須在週五前做決定。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Can we review the two options tomorrow morning?",
+            "zh": "我們可以明天早上檢視兩個方案嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. I will send the details today.",
+            "zh": "可以。我今天會把細節寄給你們。"
+          }
+        ],
+        "B1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "What feedback did the team give on the first design?",
+            "zh": "團隊對第一版設計有什麼意見？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "They liked the layout, but several people found the instructions unclear.",
+            "zh": "他們喜歡版面，但有幾個人覺得說明不夠清楚。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Then let us revise the instructions before testing again.",
+            "zh": "那我們先修改說明，再重新測試。"
+          }
+        ],
+        "B2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We can improve speed or add more features, but not both this month.",
+            "zh": "這個月我們可以改善速度，或增加功能，但無法兩者都做。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I would prioritize speed because users notice the delay in every session.",
+            "zh": "我會先改善速度，因為使用者每次操作都會感受到延遲。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "That is a clear reason. I will note the trade-off in the decision log.",
+            "zh": "理由很清楚。我會把這項取捨記在決策紀錄中。"
+          }
+        ],
+        "B3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The requirements changed after testing, so the original plan no longer fits.",
+            "zh": "測試後需求變了，原本的計畫已不適用。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Could we separate essential changes from ideas that can wait for a later release?",
+            "zh": "我們可以把必要修改和可留到之後版本的構想分開嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. I will group the feedback and bring a revised scope tomorrow.",
+            "zh": "可以。我會整理回饋，明天提出修訂後的範圍。"
+          }
+        ],
+        "C1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The latest numbers favor option A, though the difference is smaller than we expected.",
+            "zh": "最新數字較支持 A 方案，但差距比預期小。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Before choosing, I would like to understand whether the result holds across different customer groups.",
+            "zh": "做決定前，我想了解不同客群是否也呈現相同結果。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "That is a useful check. We can break down the data and reconvene.",
+            "zh": "這項檢查很有價值。我們可以拆分資料，再開會討論。"
+          }
+        ],
+        "C2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Operations supports the change, but support teams are concerned about the rollout timing.",
+            "zh": "營運團隊支持變更，但客服團隊擔心推出時程。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Could we agree on a staged launch with clear ownership for customer communication?",
+            "zh": "我們能否同意分階段推出，並明確指定客戶溝通的負責人？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I will ask both teams to review that proposal before we commit to a date.",
+            "zh": "我會請兩個團隊先檢視這項提案，再決定日期。"
+          }
+        ],
+        "C3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We appear to agree on the goal, but we are using different assumptions about the cost of delay.",
+            "zh": "我們似乎同意目標，但對延後的成本採用不同假設。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Rather than force a decision today, could we state those assumptions explicitly and test the most consequential one?",
+            "zh": "與其今天硬做決定，我們能否明確列出假設，並驗證影響最大的一項？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. That would make the disagreement concrete and give us a stronger basis for the next decision.",
+            "zh": "可以。這能讓分歧具體化，也讓下一次決策有更扎實的依據。"
+          }
+        ]
+      }
+    },
+    "workcall": {
+      "name": "工作電話",
+      "levels": {
+        "A1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Hello, this is Coco from the office.",
+            "zh": "你好，我是辦公室的 Coco。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Hi, this is Alex.",
+            "zh": "你好，我是 Alex。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Thanks for calling.",
+            "zh": "謝謝你打來。"
+          }
+        ],
+        "A2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "May I speak with Alex, please?",
+            "zh": "請問可以找 Alex 嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Alex is not here. Can I take a message?",
+            "zh": "Alex 不在。我可以幫你留言嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. Please ask Alex to call me back.",
+            "zh": "好。請 Alex 回電給我。"
+          }
+        ],
+        "A3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I am calling about our meeting on Thursday.",
+            "zh": "我打來是想談週四的會議。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Could we move it to three in the afternoon?",
+            "zh": "可以改到下午三點嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Let me check the calendar and call you back.",
+            "zh": "我確認行事曆後再回電。"
+          }
+        ],
+        "B1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I wanted to confirm the delivery address before we send the samples.",
+            "zh": "寄送樣品前，我想確認收件地址。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Please use the new office address. I can email it to you now.",
+            "zh": "請用新的辦公室地址。我現在可以寄信給你。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "That would help. I will read it back when I receive it.",
+            "zh": "那會有幫助。收到後我會再唸一次，和你核對。"
+          }
+        ],
+        "B2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "The team is free on Monday or Wednesday for a short call.",
+            "zh": "團隊週一或週三有空，可以開個短會。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "Wednesday works better. Could you send an invitation with the topics to cover?",
+            "zh": "週三比較適合。可以寄會議邀請，附上要討論的主題嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Of course. I will include a twenty-minute agenda.",
+            "zh": "當然。我會附上一份二十分鐘的議程。"
+          }
+        ],
+        "B3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I am following up because we have not received the revised document yet.",
+            "zh": "我來追蹤一下，因為我們還沒收到修訂後的文件。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "I sent it earlier, but I may have used the old address. Could I confirm your email?",
+            "zh": "我早些時候寄了，但可能用了舊地址。可以確認你的電子郵件嗎？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Yes. I will spell it out, and please resend the file after the call.",
+            "zh": "可以。我會拼給你聽，通話後請再寄一次。"
+          }
+        ],
+        "C1": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Before we discuss the customer details, can you confirm who else is on the line?",
+            "zh": "討論客戶細節前，可以確認還有誰在線上嗎？"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "It is just me. If we need to involve others, I will first check what information we may share.",
+            "zh": "只有我。如果需要找其他人，我會先確認哪些資訊可以分享。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Thank you. Let us start with the general timeline rather than personal data.",
+            "zh": "謝謝。我們先談一般時程，暫不涉及個人資料。"
+          }
+        ],
+        "C2": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "I heard that the launch date has shifted, though the email did not explain whether the scope changed.",
+            "zh": "我聽說上市日期調整了，但郵件沒有說明範圍是否也變了。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That is worth clarifying. My understanding is the scope is unchanged, but I will confirm before we update the schedule.",
+            "zh": "這點值得釐清。我的理解是範圍不變，但更新時程前我會再確認。"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Please send a short written summary afterward so both teams use the same assumptions.",
+            "zh": "之後請寄一份簡短書面摘要，讓兩邊團隊採用相同假設。"
+          }
+        ],
+        "C3": [
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "We can tentatively reserve capacity, but I cannot guarantee delivery until the final requirements are approved.",
+            "zh": "我們可以先暫留產能，但在最終需求核准前，我無法保證交付。"
+          },
+          {
+            "role": "跟讀你的回應",
+            "speaker": "YOU",
+            "text": "That distinction is helpful. Could we document what is provisional and what must be confirmed by Friday?",
+            "zh": "這樣區分很有幫助。我們能否記錄哪些是暫定事項、哪些必須在週五前確認？"
+          },
+          {
+            "role": "跟讀對方台詞",
+            "speaker": "COCO",
+            "text": "Absolutely. I will circulate a summary that keeps the tentative plan separate from firm commitments.",
+            "zh": "當然。我會發送摘要，清楚區分暫定計畫與確定承諾。"
+          }
+        ]
+      }
+    }
+  }
+}
